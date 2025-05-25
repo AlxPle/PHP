@@ -60,6 +60,16 @@ do...while loop will always execute the block of code once, even if the conditio
 */
 
 $posts = ['First Post', 'Second Post', 'Third Post'];
-foreach ($posts as $post) {
-    echo $post . '<br>';
+foreach ($posts as $index => $post) {
+    echo $index + 1 . ' - ' . $post . '<br>';
+}
+
+$person = [
+    'first_name' => 'Alex',
+    'last_name' => 'P',
+    'email' => 'alex@gmail.com',
+];
+
+foreach ($person as $key => $value) {
+    echo $key . ': ' . $value . '<br>';
 }
