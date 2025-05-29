@@ -25,11 +25,11 @@
     // code to be executed
     }
 */
-// $i = 1; // Initialize the counter variable
-// while ($i < 10) {
-//     echo 'Number ' . $i . '<br>';
-//     $i++; // or $i = $i + 1; // Increment the counter variable
-// };
+$i = 1; // Initialize the counter variable
+while ($i < 10) {
+    echo 'Number ' . $i . '<br>';
+    $i++; // or $i = $i + 1; // Increment the counter variable
+};
 
 
 /* ---------- Do While Loop --------- */
@@ -42,11 +42,11 @@
 
 do...while loop will always execute the block of code once, even if the condition is false.
 */
-// $i = 1; // Initialize the counter variable
-// do {
-//     echo 'Number ' . $i . '<br>';
-//     $i++; // Increment the counter variable
-// } while ($i < 20); // The loop will continue as long as $i is less than 20
+$i = 1; // Initialize the counter variable
+do {
+    echo 'Number ' . $i . '<br>';
+    $i++; // Increment the counter variable
+} while ($i < 20); // The loop will continue as long as $i is less than 20
 
 
 
