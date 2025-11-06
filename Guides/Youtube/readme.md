@@ -6,6 +6,7 @@ This folder contains various guides, notes, and resources collected from differe
 
 - **Youtube/**  
   List and notes from YouTube courses and tutorials.
+  - [Traversy Media — PHP Crash Course ✅ (completed)](https://youtu.be/BUCiSSyIGGU)
 - **Other folders**  
   You can add guides for Linux, PHP best practices, troubleshooting, configuration, and any other relevant topics.
 

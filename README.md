@@ -21,7 +21,7 @@ This repository is for my personal learning and practice with PHP.
 
 - **Guides/** — various guides, notes, and resources from different sources.
   - **Youtube/** — list and notes from YouTube courses and tutorials.
-    - [Traversy Media — PHP Crash Course (completed)](https://youtu.be/BUCiSSyIGGU)
+    - [Traversy Media — PHP Crash Course ✅ (completed)](https://youtu.be/BUCiSSyIGGU)
 - **examples/** — small educational snippets and scripts.
 - **projects/** — learning projects and homework.
 - **notes/** — written notes and short explanations.
