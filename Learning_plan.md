@@ -325,17 +325,37 @@
 
 ## Summary of Stages
 
-| Stage | Topic | Key Skills |
-|-------|-------|------------|
-| 1 | Basics + PHP 8.x | Syntax, types, enums, match, strict typing |
-| 2 | Forms + Docker | Environment setup, HTTP, validation |
-| 3 | Sessions/Auth | State management, cookies, login |
-| 4 | Databases | PDO, prepared statements, CRUD |
-| 5 | OOP/Composer | SOLID, DI, PSR, static analysis |
-| 5.5 | API Development | REST, JSON, HTTP methods, Postman |
-| 6 | Projects | ToDo → ToDo API → Blog |
-| 7 | Security/Frameworks | XSS, CSRF, Laravel basics |
-| 8 | Testing/Deploy | PHPUnit, CI/CD, deployment |
+| Stage | Topic | Key Skills | Duration |
+|-------|-------|------------|----------|
+| 1 | Basics + PHP 8.x | Syntax, types, enums, match, strict typing | 2–3 weeks |
+| 2 | Forms + Docker | Environment setup, HTTP, validation | 1–2 weeks |
+| 3 | Sessions/Auth | State management, cookies, login | 1–2 weeks |
+| 4 | Databases | PDO, prepared statements, CRUD | 2 weeks |
+| 5 | OOP/Composer | SOLID, DI, PSR, static analysis | 3–4 weeks |
+| 5.5 | API Development | REST, JSON, HTTP methods, Postman | 1–2 weeks |
+| 6 | Projects | ToDo → ToDo API → Blog | 4–6 weeks |
+| 7 | Security/Frameworks | XSS, CSRF, Laravel basics | 3–4 weeks |
+| 8 | Testing/Deploy | PHPUnit, CI/CD, deployment | 2–3 weeks |
+
+**Total estimated time: 20–28 weeks (~5–7 months)**
+
+
+
+---
+
+## Timeline Breakdown
+
+### Phase 1: Fundamentals (Stages 1–4) — 6–9 weeks
+Цель: уверенно писать PHP-код, работать с формами, сессиями и базой данных.
+
+### Phase 2: Architecture (Stages 5–5.5) — 4–6 weeks  
+Цель: понимать OOP, SOLID, строить API, использовать Composer и инструменты качества кода.
+
+### Phase 3: Real Projects (Stage 6) — 4–6 weeks
+Цель: создать portfolio-ready проекты, применить все навыки на практике.
+
+### Phase 4: Production Ready (Stages 7–8) — 5–7 weeks
+Цель: безопасность, фреймворки, тестирование, деплой — готовность к работе.
 
 ---
 
