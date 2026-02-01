@@ -9,6 +9,19 @@ This document contains step-by-step instructions to set up a PHP development env
   sudo dnf update -y
   ```
 
+
+## 2. Local PHP server
+
+To quickly test PHP scripts, you can use the built-in PHP development server:
+
+```sh
+php -S localhost:8000
+```
+
+This command will start a local server in the current directory. Open http://localhost:8000 in your browser to view your PHP files.
+
+You can stop the server at any time by pressing Ctrl+C in the terminal.
+
 ---
 
 *Other setup steps will be added as needed during learning and development.*
