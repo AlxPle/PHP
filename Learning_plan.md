@@ -8,10 +8,10 @@
 
 ## Stage 1 — Language Basics🚧
 - Syntax overview 🚧
-  - [ ] PHP tags (`<?php ... ?>`)
-  - [ ] Comments (`//`, `/* ... */`)
-  - [ ] Basic output (`echo`, `print`)
-  - [ ] **Strict types (`declare(strict_types=1)`)**
+  - [✅] PHP tags (`<?php ... ?>`)
+  - [✅] Comments (`//`, `/* ... */`)
+  - [✅] Basic output (`echo`, `print`)
+  - [✅] **Strict types (`declare(strict_types=1)`)**
 - Variables and data types 🚧
   - [ ] Declaring variables
   - [ ] Data types (string, int, float, bool, array)
