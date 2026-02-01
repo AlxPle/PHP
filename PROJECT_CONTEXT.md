@@ -10,6 +10,7 @@ Stage 1 — Language Basics 🚧
 - Track progress with emojis (🚧/✅)
 - Use detailed checklists for each stage
 - Prefer short, clear explanations and code examples
+- All code examples and comments are in English. All explanations and discussions in chat are in Russian.
 
 ## Additional Notes
 Already familiar with HTML/CSS/SCSS. Want to focus on backend and integration with databases.
