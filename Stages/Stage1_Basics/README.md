@@ -10,18 +10,18 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 ## Task Checklist
 
 ### Syntax
-- [✅] PHP tags (`<?php ... ?>`, short syntax)
-- [✅] Comments (`//`, `/* ... */`, `/** ... */`)
-- [✅] Output (`echo`, `print`, `var_dump`, `print_r`)
-- [✅] Strict typing (`declare(strict_types=1)`)
+- [x] PHP tags (`<?php ... ?>`, short syntax)
+- [x] Comments (`//`, `/* ... */`, `/** ... */`)
+- [x] Output (`echo`, `print`, `var_dump`, `print_r`)
+- [x] Strict typing (`declare(strict_types=1)`)
 
 ### Variables and Data Types
-- [ ] Variable declaration (`$name = value`)
-- [ ] Types: `string`, `int`, `float`, `bool`, `array`, `null`
-- [ ] Type juggling (automatic type conversion)
-- [ ] Type declarations (parameter and return types)
-- [ ] Union types (`int|string`)
-- [ ] Nullable types (`?string`)
+- [x] Variable declaration (`$name = value`)
+- [x] Types: `string`, `int`, `float`, `bool`, `array`, `null`
+- [x] Type juggling (automatic type conversion)
+- [x] Type declarations (parameter and return types)
+- [x] Union types (`int|string`)
+- [x] Nullable types (`?string`)
 
 ### Operators
 - [ ] Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`

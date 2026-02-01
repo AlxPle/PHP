@@ -8,17 +8,17 @@
 
 ## Stage 1 — Language Basics🚧
 - Syntax overview 🚧
-  - [✅] PHP tags (`<?php ... ?>`)
-  - [✅] Comments (`//`, `/* ... */`)
-  - [✅] Basic output (`echo`, `print`)
-  - [✅] **Strict types (`declare(strict_types=1)`)**
+  - [x] PHP tags (`<?php ... ?>`)
+  - [x] Comments (`//`, `/* ... */`)
+  - [x] Basic output (`echo`, `print`)
+  - [x] **Strict types (`declare(strict_types=1)`)**
 - Variables and data types 🚧
-  - [ ] Declaring variables
-  - [ ] Data types (string, int, float, bool, array)
-  - [ ] Type juggling
-  - [ ] **Type declarations (parameter types, return types)**
-  - [ ] **Union types (`int|string`)**
-  - [ ] **Nullable types (`?string`)**
+  - [x] Declaring variables
+  - [x] Data types (string, int, float, bool, array)
+  - [x] Type juggling
+  - [x] **Type declarations (parameter types, return types)**
+  - [x] **Union types (`int|string`)**
+  - [x] **Nullable types (`?string`)**
 - Operators 🚧
   - [ ] Arithmetic operators
   - [ ] Comparison operators
