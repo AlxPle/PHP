@@ -2,83 +2,83 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Освоить разработку REST API, понять HTTP протокол глубже и научиться работать с внешними API.
+## Goal
+Master REST API development, understand HTTP protocol deeper, and learn to work with external APIs.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
 ### HTTP Fundamentals
-- [ ] HTTP методы (GET, POST, PUT, PATCH, DELETE)
-- [ ] Idempotency (идемпотентность методов)
-- [ ] HTTP статус-коды по категориям:
+- [ ] HTTP methods (GET, POST, PUT, PATCH, DELETE)
+- [ ] Idempotency (method idempotency)
+- [ ] HTTP status codes by category:
   - [ ] 2xx Success (200, 201, 204)
   - [ ] 4xx Client Errors (400, 401, 403, 404, 422)
   - [ ] 5xx Server Errors (500, 502, 503)
 - [ ] Headers (Content-Type, Accept, Authorization)
-- [ ] Request body форматы (JSON, form-data)
+- [ ] Request body formats (JSON, form-data)
 
 ### REST API Concepts
-- [ ] Что такое REST
+- [ ] What is REST
 - [ ] Resource-based URLs (`/users`, `/users/1`)
-- [ ] Stateless архитектура
-- [ ] HATEOAS (понимание, не обязательно реализация)
-- [ ] Версионирование API (`/api/v1/`)
+- [ ] Stateless architecture
+- [ ] HATEOAS (understanding, implementation not required)
+- [ ] API versioning (`/api/v1/`)
 - [ ] Naming conventions
 
 ### Building REST API in PHP
 
 #### Routing
-- [ ] Простой роутер на PHP
-- [ ] Парсинг URL и метода
+- [ ] Simple router in PHP
+- [ ] Parsing URL and method
 - [ ] Route parameters (`/users/{id}`)
-- [ ] 404 для несуществующих routes
+- [ ] 404 for non-existent routes
 
 #### Handling Requests
-- [ ] Чтение JSON body (`php://input`)
-- [ ] `json_decode()` с обработкой ошибок
-- [ ] Валидация входящих данных
-- [ ] Работа с query parameters
+- [ ] Reading JSON body (`php://input`)
+- [ ] `json_decode()` with error handling
+- [ ] Validating incoming data
+- [ ] Working with query parameters
 
 #### Sending Responses
-- [ ] Установка Content-Type header
-- [ ] `json_encode()` с правильными флагами
-- [ ] Установка HTTP статус-кода (`http_response_code()`)
+- [ ] Setting Content-Type header
+- [ ] `json_encode()` with proper flags
+- [ ] Setting HTTP status code (`http_response_code()`)
 - [ ] Consistent response format
 
 #### Error Handling
-- [ ] Структура ошибок (code, message, details)
+- [ ] Error structure (code, message, details)
 - [ ] Validation errors (422)
 - [ ] Not found errors (404)
 - [ ] Server errors (500)
-- [ ] Не раскрывать внутренние детали
+- [ ] Don't expose internal details
 
 ### API Testing
-- [ ] Установка Postman или Insomnia
-- [ ] Создание коллекций запросов
-- [ ] Environment variables в Postman
-- [ ] Автоматические тесты в Postman
-- [ ] Использование cURL из командной строки
+- [ ] Install Postman or Insomnia
+- [ ] Create request collections
+- [ ] Environment variables in Postman
+- [ ] Automated tests in Postman
+- [ ] Using cURL from command line
 
 ### Consuming External APIs
-- [ ] Использование cURL в PHP
-- [ ] Guzzle HTTP client (установка, использование)
-- [ ] Обработка ответов
+- [ ] Using cURL in PHP
+- [ ] Guzzle HTTP client (installation, usage)
+- [ ] Processing responses
 - [ ] Error handling
-- [ ] Retry логика
+- [ ] Retry logic
 - [ ] Rate limiting awareness
 
 ### API Authentication Basics
 - [ ] API Keys
 - [ ] Bearer tokens
 - [ ] Basic authentication
-- [ ] JWT (JSON Web Tokens) — теория
-- [ ] OAuth 2.0 — обзор концепции
+- [ ] JWT (JSON Web Tokens) — theory
+- [ ] OAuth 2.0 — concept overview
 
 ---
 
-## Структура файлов
+## File Structure
 
 ```
 Stage5_Structure_OOP/API_Basics/
@@ -263,7 +263,7 @@ try {
 
 ---
 
-## Ресурсы
+## Resources
 
 - [REST API Tutorial](https://restfulapi.net/)
 - [HTTP Status Codes](https://httpstatuses.com/)
@@ -275,11 +275,11 @@ try {
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Понимаю REST principles
-- [ ] Могу создать простой API на PHP
-- [ ] Правильно использую HTTP статус-коды
-- [ ] API тестируется через Postman
-- [ ] Могу потреблять внешние API (Guzzle/cURL)
-- [ ] Понимаю основы API аутентификации
+- [ ] Understand REST principles
+- [ ] Can create a simple API in PHP
+- [ ] Properly use HTTP status codes
+- [ ] API is tested via Postman
+- [ ] Can consume external APIs (Guzzle/cURL)
+- [ ] Understand API authentication basics

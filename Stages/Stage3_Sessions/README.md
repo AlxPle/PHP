@@ -2,58 +2,58 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Научиться управлять состоянием пользователя через сессии и cookies, создать простую систему аутентификации.
+## Goal
+Learn to manage user state through sessions and cookies, create a simple authentication system.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
 ### Sessions
-- [ ] Понять концепцию stateless HTTP
-- [ ] `session_start()` — запуск сессии
-- [ ] `$_SESSION` — хранение данных
-- [ ] `session_destroy()` — уничтожение сессии
-- [ ] `session_regenerate_id()` — безопасность
-- [ ] Session ID и cookies
-- [ ] Настройки сессий (`php.ini`, `session_set_cookie_params`)
+- [ ] Understand the stateless HTTP concept
+- [ ] `session_start()` — start a session
+- [ ] `$_SESSION` — store data
+- [ ] `session_destroy()` — destroy a session
+- [ ] `session_regenerate_id()` — security
+- [ ] Session ID and cookies
+- [ ] Session settings (`php.ini`, `session_set_cookie_params`)
 
 ### Cookies
-- [ ] `setcookie()` — установка cookie
-- [ ] `$_COOKIE` — чтение cookies
-- [ ] Время жизни cookies
-- [ ] Удаление cookies
-- [ ] Secure и HttpOnly флаги
-- [ ] SameSite атрибут
+- [ ] `setcookie()` — set a cookie
+- [ ] `$_COOKIE` — read cookies
+- [ ] Cookie lifetime
+- [ ] Delete cookies
+- [ ] Secure and HttpOnly flags
+- [ ] SameSite attribute
 
-### Аутентификация (file-based)
-- [ ] Форма регистрации
-- [ ] Хеширование паролей (`password_hash`)
-- [ ] Сохранение пользователей в файл/JSON
-- [ ] Форма входа
-- [ ] Проверка пароля (`password_verify`)
-- [ ] Сохранение состояния в сессии
-- [ ] Logout функционал
+### Authentication (file-based)
+- [ ] Registration form
+- [ ] Password hashing (`password_hash`)
+- [ ] Save users to file/JSON
+- [ ] Login form
+- [ ] Password verification (`password_verify`)
+- [ ] Save state in session
+- [ ] Logout functionality
 
-### Защита страниц
-- [ ] Проверка авторизации
-- [ ] Редирект неавторизованных
-- [ ] Middleware-подобная логика
-- [ ] Flash-сообщения (уведомления)
+### Page Protection
+- [ ] Check authorization
+- [ ] Redirect unauthorized users
+- [ ] Middleware-like logic
+- [ ] Flash messages (notifications)
 
 ---
 
-## Мини-проект: User Auth System
+## Mini Project: User Auth System
 
-### Функционал
-- [ ] Регистрация с валидацией
-- [ ] Вход в систему
-- [ ] Защищённая страница (dashboard)
-- [ ] Выход из системы
-- [ ] "Запомнить меня" через cookies
-- [ ] Flash-сообщения об ошибках/успехе
+### Features
+- [ ] Registration with validation
+- [ ] Login to the system
+- [ ] Protected page (dashboard)
+- [ ] Logout from the system
+- [ ] "Remember me" via cookies
+- [ ] Flash messages for errors/success
 
-### Страницы
+### Pages
 - `register.php` — регистрация
 - `login.php` — вход
 - `dashboard.php` — личный кабинет (защищён)
@@ -62,7 +62,7 @@
 
 ---
 
-## Структура файлов
+## File Structure
 
 ```
 Stage3_Sessions/
@@ -92,20 +92,20 @@ Stage3_Sessions/
 
 ---
 
-## Примеры кода
+## Code Examples
 
-### Безопасное хеширование пароля
+### Secure Password Hashing
 ```php
-// Регистрация
+// Registration
 $hash = password_hash($password, PASSWORD_DEFAULT);
 
-// Вход
+// Login
 if (password_verify($inputPassword, $storedHash)) {
-    // Успешный вход
+    // Successful login
 }
 ```
 
-### Проверка авторизации
+### Authorization Check
 ```php
 session_start();
 
@@ -117,7 +117,7 @@ if (!isset($_SESSION['user_id'])) {
 
 ---
 
-## Ресурсы
+## Resources
 
 - [PHP Manual: Sessions](https://www.php.net/manual/en/book.session.php)
 - [PHP Manual: Cookies](https://www.php.net/manual/en/features.cookies.php)
@@ -126,10 +126,10 @@ if (!isset($_SESSION['user_id'])) {
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Понимаю разницу между sessions и cookies
-- [ ] Могу создать систему регистрации/входа
-- [ ] Пароли хранятся безопасно (хешированы)
-- [ ] Защищённые страницы недоступны без входа
-- [ ] Flash-сообщения работают
+- [ ] Understand the difference between sessions and cookies
+- [ ] Can create a registration/login system
+- [ ] Passwords are stored securely (hashed)
+- [ ] Protected pages are inaccessible without login
+- [ ] Flash messages work

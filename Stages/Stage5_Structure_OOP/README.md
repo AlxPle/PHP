@@ -2,52 +2,52 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Научиться правильно структурировать проекты, использовать Composer, освоить ООП и принципы SOLID.
+## Goal
+Learn to properly structure projects, use Composer, master OOP and SOLID principles.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
 ### PSR Standards
 - [ ] PSR-1: Basic Coding Standard
 - [ ] PSR-4: Autoloading Standard
 - [ ] PSR-12: Extended Coding Style
-- [ ] Понимание namespaces
+- [ ] Understanding namespaces
 
-### Структура проекта
-- [ ] Разделение `public/` (точка входа) и `src/` (код)
-- [ ] Папка `templates/` для представлений
-- [ ] Папка `config/` для конфигурации
-- [ ] `.env` файлы и `vlucas/phpdotenv`
-- [ ] `.gitignore` правильная настройка
+### Project Structure
+- [ ] Separate `public/` (entry point) and `src/` (code)
+- [ ] `templates/` folder for views
+- [ ] `config/` folder for configuration
+- [ ] `.env` files and `vlucas/phpdotenv`
+- [ ] `.gitignore` proper setup
 
 ### Composer
-- [ ] Установка Composer глобально
-- [ ] Инициализация проекта (`composer init`)
-- [ ] Понимание `composer.json`
-- [ ] Установка пакетов (`composer require`)
-- [ ] Dev-зависимости (`composer require --dev`)
+- [ ] Install Composer globally
+- [ ] Initialize project (`composer init`)
+- [ ] Understand `composer.json`
+- [ ] Install packages (`composer require`)
+- [ ] Dev dependencies (`composer require --dev`)
 - [ ] Autoloading PSR-4
 - [ ] Composer scripts
-- [ ] `composer.lock` и версионирование
+- [ ] `composer.lock` and versioning
 
-### ООП Basics
-- [ ] Классы и объекты
-- [ ] Свойства и методы
-- [ ] Конструкторы
+### OOP Basics
+- [ ] Classes and objects
+- [ ] Properties and methods
+- [ ] Constructors
 - [ ] Constructor property promotion (PHP 8)
 - [ ] Visibility: public, protected, private
-- [ ] Static свойства и методы
-- [ ] Constants в классах
+- [ ] Static properties and methods
+- [ ] Constants in classes
 
-### ООП Advanced
-- [ ] Наследование (extends)
-- [ ] Абстрактные классы
-- [ ] Интерфейсы (implements)
+### OOP Advanced
+- [ ] Inheritance (extends)
+- [ ] Abstract classes
+- [ ] Interfaces (implements)
 - [ ] Traits
-- [ ] Final классы и методы
-- [ ] Type hints для классов
+- [ ] Final classes and methods
+- [ ] Type hints for classes
 
 ### SOLID Principles
 - [ ] **S** — Single Responsibility Principle
@@ -57,22 +57,22 @@
 - [ ] **D** — Dependency Inversion Principle
 
 ### Dependency Injection
-- [ ] Понимание DI концепции
+- [ ] Understanding DI concept
 - [ ] Constructor injection
 - [ ] Setter injection
 - [ ] Interface-based injection
-- [ ] Простой DI container
+- [ ] Simple DI container
 
 ### Static Analysis
-- [ ] Установка PHPStan
-- [ ] Настройка `phpstan.neon`
-- [ ] Запуск анализа и исправление ошибок
-- [ ] PHP CS Fixer для code style
-- [ ] Интеграция в workflow
+- [ ] Install PHPStan
+- [ ] Configure `phpstan.neon`
+- [ ] Run analysis and fix errors
+- [ ] PHP CS Fixer for code style
+- [ ] Integration into workflow
 
 ---
 
-## Структура проекта (пример)
+## Project Structure (example)
 
 ```
 my-project/
@@ -103,7 +103,7 @@ my-project/
 
 ---
 
-## Пример composer.json
+## composer.json Example
 
 ```json
 {
@@ -132,7 +132,7 @@ my-project/
 
 ---
 
-## Структура файлов этапа
+## Stage File Structure
 
 ```
 Stage5_Structure_OOP/
@@ -164,7 +164,7 @@ Stage5_Structure_OOP/
 
 ---
 
-## Ресурсы
+## Resources
 
 - [Composer Documentation](https://getcomposer.org/doc/)
 - [PHP-FIG PSR Standards](https://www.php-fig.org/psr/)
@@ -175,10 +175,10 @@ Stage5_Structure_OOP/
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Понимаю и использую PSR-4 autoloading
-- [ ] Могу настроить Composer проект с нуля
-- [ ] Понимаю все принципы SOLID
-- [ ] Использую DI в своём коде
-- [ ] PHPStan не показывает ошибок на level 5+
+- [ ] Understand and use PSR-4 autoloading
+- [ ] Can set up a Composer project from scratch
+- [ ] Understand all SOLID principles
+- [ ] Use DI in my code
+- [ ] PHPStan shows no errors at level 5+

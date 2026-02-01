@@ -2,40 +2,40 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Освоить тестирование с PHPUnit, настроить CI/CD pipeline и научиться деплоить приложения.
+## Goal
+Master testing with PHPUnit, set up CI/CD pipeline, and learn to deploy applications.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
 ### PHPUnit Testing
 
-#### Основы
-- [ ] Установка PHPUnit через Composer
-- [ ] Настройка `phpunit.xml`
-- [ ] Написание первого теста
+#### Basics
+- [ ] Install PHPUnit via Composer
+- [ ] Configure `phpunit.xml`
+- [ ] Write the first test
 - [ ] Assertions (`assertEquals`, `assertTrue`, `assertNull`, etc.)
 - [ ] Test naming conventions
-- [ ] Запуск тестов
+- [ ] Run tests
 
 #### Unit Tests
-- [ ] Тестирование чистых функций
-- [ ] Тестирование классов
+- [ ] Testing pure functions
+- [ ] Testing classes
 - [ ] Data providers
 - [ ] Testing exceptions
 - [ ] Code coverage reports
 
 #### Integration Tests
-- [ ] Тестирование с базой данных
+- [ ] Testing with database
 - [ ] Test fixtures
-- [ ] Database transactions в тестах
-- [ ] Тестирование API endpoints
+- [ ] Database transactions in tests
+- [ ] Testing API endpoints
 
 #### Mocking
 - [ ] Test doubles concepts
-- [ ] Mocking с PHPUnit
-- [ ] Stubbing методов
+- [ ] Mocking with PHPUnit
+- [ ] Stubbing methods
 - [ ] Mocking dependencies
 
 #### TDD Basics
@@ -45,51 +45,51 @@
 
 ### Xdebug Debugging
 
-- [ ] Установка Xdebug
-- [ ] Настройка `php.ini` для Xdebug
-- [ ] Интеграция с VS Code
+- [ ] Install Xdebug
+- [ ] Configure `php.ini` for Xdebug
+- [ ] Integration with VS Code
 - [ ] Breakpoints
 - [ ] Step debugging (step over, step into, step out)
 - [ ] Watching variables
 - [ ] Call stack analysis
-- [ ] Profiling с Xdebug
+- [ ] Profiling with Xdebug
 
 ### CI/CD Pipeline
 
 #### GitHub Actions
-- [ ] Понимание CI/CD концепции
-- [ ] Создание `.github/workflows/ci.yml`
-- [ ] Запуск тестов при push/PR
-- [ ] Кэширование Composer dependencies
-- [ ] Matrix testing (разные PHP версии)
+- [ ] Understanding CI/CD concept
+- [ ] Create `.github/workflows/ci.yml`
+- [ ] Run tests on push/PR
+- [ ] Cache Composer dependencies
+- [ ] Matrix testing (different PHP versions)
 
 #### Quality Checks
-- [ ] PHPStan в CI
-- [ ] PHP CS Fixer в CI
-- [ ] Code coverage в CI
-- [ ] Failing builds при ошибках
+- [ ] PHPStan in CI
+- [ ] PHP CS Fixer in CI
+- [ ] Code coverage in CI
+- [ ] Failing builds on errors
 
 #### Automated Deployment
-- [ ] Deploy при merge в main
+- [ ] Deploy on merge to main
 - [ ] Secrets management
-- [ ] Environment variables в CI
+- [ ] Environment variables in CI
 
 ### Deployment
 
 #### Development Server
 - [ ] PHP built-in server
-- [ ] Когда использовать (только dev!)
+- [ ] When to use (dev only!)
 
 #### Production Setup
 - [ ] nginx + php-fpm
-- [ ] Конфигурация nginx
+- [ ] nginx configuration
 - [ ] PHP-FPM pools
-- [ ] Opcache настройка
+- [ ] Opcache configuration
 
 #### Docker in Production
 - [ ] Production Dockerfile
 - [ ] Multi-stage builds
-- [ ] Docker Compose для production
+- [ ] Docker Compose for production
 - [ ] Health checks
 
 #### Server Security
@@ -105,7 +105,7 @@
 
 ---
 
-## Структура файлов
+## File Structure
 
 ```
 Stage8_Testing_Deployment/
@@ -299,7 +299,7 @@ xdebug.client_host=localhost
 
 ---
 
-## Ресурсы
+## Resources
 
 ### Testing
 - [PHPUnit Documentation](https://phpunit.de/documentation.html)
@@ -321,11 +321,11 @@ xdebug.client_host=localhost
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Могу писать unit и integration тесты
+- [ ] Can write unit and integration tests
 - [ ] PHPUnit coverage > 70%
-- [ ] Xdebug настроен и работает
-- [ ] CI pipeline настроен и работает
-- [ ] Понимаю процесс деплоя
-- [ ] Могу задеплоить приложение на VPS
+- [ ] Xdebug is configured and working
+- [ ] CI pipeline is configured and working
+- [ ] Understand the deployment process
+- [ ] Can deploy an application to VPS

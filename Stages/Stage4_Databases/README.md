@@ -2,62 +2,62 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Освоить работу с базами данных через PDO, prepared statements и базовые CRUD-операции.
+## Goal
+Master working with databases through PDO, prepared statements, and basic CRUD operations.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
-### Настройка базы данных
-- [ ] Установка MySQL/MariaDB (или через Docker)
-- [ ] Создание базы данных
-- [ ] Создание пользователя с правами
-- [ ] Использование phpMyAdmin или CLI
-- [ ] Понимание SQL-запросов (SELECT, INSERT, UPDATE, DELETE)
+### Database Setup
+- [ ] Install MySQL/MariaDB (or via Docker)
+- [ ] Create a database
+- [ ] Create a user with permissions
+- [ ] Use phpMyAdmin or CLI
+- [ ] Understand SQL queries (SELECT, INSERT, UPDATE, DELETE)
 
 ### PDO (PHP Data Objects)
-- [ ] Подключение к БД через PDO
-- [ ] DSN (Data Source Name) строка
-- [ ] Обработка ошибок подключения
-- [ ] Настройка PDO (`ATTR_ERRMODE`, `ATTR_DEFAULT_FETCH_MODE`)
-- [ ] Закрытие соединения
+- [ ] Connect to DB via PDO
+- [ ] DSN (Data Source Name) string
+- [ ] Handle connection errors
+- [ ] Configure PDO (`ATTR_ERRMODE`, `ATTR_DEFAULT_FETCH_MODE`)
+- [ ] Close connection
 
 ### Prepared Statements
-- [ ] Почему prepared statements важны (SQL injection)
-- [ ] Позиционные placeholders (`?`)
-- [ ] Именованные placeholders (`:name`)
+- [ ] Why prepared statements are important (SQL injection)
+- [ ] Positional placeholders (`?`)
+- [ ] Named placeholders (`:name`)
 - [ ] `prepare()`, `execute()`, `fetch()`
 - [ ] `fetchAll()`, `rowCount()`
 
-### CRUD операции
-- [ ] **Create** — INSERT запросы
-- [ ] **Read** — SELECT запросы (один, все, с условием)
-- [ ] **Update** — UPDATE запросы
-- [ ] **Delete** — DELETE запросы
-- [ ] Пагинация (LIMIT, OFFSET)
-- [ ] Сортировка (ORDER BY)
-- [ ] Фильтрация (WHERE, LIKE)
+### CRUD Operations
+- [ ] **Create** — INSERT queries
+- [ ] **Read** — SELECT queries (one, all, with condition)
+- [ ] **Update** — UPDATE queries
+- [ ] **Delete** — DELETE queries
+- [ ] Pagination (LIMIT, OFFSET)
+- [ ] Sorting (ORDER BY)
+- [ ] Filtering (WHERE, LIKE)
 
-### Транзакции
+### Transactions
 - [ ] `beginTransaction()`
 - [ ] `commit()`
 - [ ] `rollBack()`
-- [ ] Когда использовать транзакции
+- [ ] When to use transactions
 
 ---
 
-## Мини-проект: Notes App
+## Mini Project: Notes App
 
-### Функционал
-- [ ] Список заметок с пагинацией
-- [ ] Создание новой заметки
-- [ ] Редактирование заметки
-- [ ] Удаление заметки
-- [ ] Поиск по заметкам
-- [ ] Категории/теги (опционально)
+### Features
+- [ ] List notes with pagination
+- [ ] Create a new note
+- [ ] Edit a note
+- [ ] Delete a note
+- [ ] Search notes
+- [ ] Categories/tags (optional)
 
-### Схема базы данных
+### Database Schema
 
 ```sql
 CREATE TABLE notes (
@@ -84,7 +84,7 @@ CREATE TABLE note_categories (
 
 ---
 
-## Структура файлов
+## File Structure
 
 ```
 Stage4_Databases/
@@ -118,7 +118,7 @@ Stage4_Databases/
 
 ---
 
-## Пример подключения
+## Connection Example
 
 ```php
 <?php
@@ -147,7 +147,7 @@ try {
 
 ---
 
-## Ресурсы
+## Resources
 
 - [PHP Manual: PDO](https://www.php.net/manual/en/book.pdo.php)
 - [PDO Tutorial](https://phpdelusions.net/pdo)
@@ -156,10 +156,10 @@ try {
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Могу подключиться к БД через PDO
-- [ ] Использую только prepared statements
-- [ ] Понимаю SQL injection и как защититься
-- [ ] CRUD операции работают
-- [ ] Notes App полностью функционален
+- [ ] Can connect to DB via PDO
+- [ ] Use only prepared statements
+- [ ] Understand SQL injection and how to protect against it
+- [ ] CRUD operations work
+- [ ] Notes App is fully functional

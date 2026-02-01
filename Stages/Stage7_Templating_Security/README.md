@@ -2,99 +2,99 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Освоить шаблонизаторы, углубить знания безопасности и познакомиться с Laravel.
+## Goal
+Master template engines, deepen security knowledge, and get familiar with Laravel.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
 ### Templating Basics
-- [ ] Разделение логики и представления
-- [ ] PHP как шаблонизатор (альтернативный синтаксис)
-- [ ] Создание layout системы
-- [ ] Partials и includes
-- [ ] Экранирование вывода
+- [ ] Separation of logic and presentation
+- [ ] PHP as a template engine (alternative syntax)
+- [ ] Creating a layout system
+- [ ] Partials and includes
+- [ ] Output escaping
 
 ### Twig Template Engine
-- [ ] Установка Twig через Composer
-- [ ] Базовый синтаксис (`{{ }}`, `{% %}`)
-- [ ] Наследование шаблонов (`extends`, `block`)
-- [ ] Циклы и условия
-- [ ] Фильтры и функции
-- [ ] Автоэкранирование
-- [ ] Кастомные фильтры
+- [ ] Install Twig via Composer
+- [ ] Basic syntax (`{{ }}`, `{% %}`)
+- [ ] Template inheritance (`extends`, `block`)
+- [ ] Loops and conditions
+- [ ] Filters and functions
+- [ ] Auto-escaping
+- [ ] Custom filters
 
 ### Security
 
 #### XSS Prevention
-- [ ] Понимание XSS атак
-- [ ] `htmlspecialchars()` везде
+- [ ] Understanding XSS attacks
+- [ ] `htmlspecialchars()` everywhere
 - [ ] Content Security Policy (CSP)
-- [ ] Санитизация HTML (если нужен HTML)
+- [ ] HTML sanitization (if HTML is needed)
 
 #### CSRF Protection
-- [ ] Понимание CSRF атак
-- [ ] Генерация CSRF токенов
-- [ ] Валидация токенов
+- [ ] Understanding CSRF attacks
+- [ ] Generating CSRF tokens
+- [ ] Token validation
 - [ ] Double Submit Cookie pattern
 
 #### SQL Injection
-- [ ] Почему prepared statements обязательны
-- [ ] Никогда не конкатенировать SQL
-- [ ] Принцип наименьших привилегий для БД
+- [ ] Why prepared statements are mandatory
+- [ ] Never concatenate SQL
+- [ ] Principle of least privilege for DB
 
 #### Authentication Security
-- [ ] `password_hash()` с PASSWORD_DEFAULT
-- [ ] `password_verify()` для проверки
-- [ ] Timing attacks и constant-time comparison
+- [ ] `password_hash()` with PASSWORD_DEFAULT
+- [ ] `password_verify()` for verification
+- [ ] Timing attacks and constant-time comparison
 - [ ] Session fixation prevention
 - [ ] Brute force protection (rate limiting)
 
 #### Other Security
 - [ ] HTTPS everywhere
 - [ ] Secure cookies (`Secure`, `HttpOnly`, `SameSite`)
-- [ ] Не показывать ошибки в production
-- [ ] Валидация файловых загрузок
-- [ ] Защита от path traversal
+- [ ] Don't show errors in production
+- [ ] File upload validation
+- [ ] Path traversal protection
 
 ### Laravel Introduction
 
-#### Установка и настройка
-- [ ] Установка Laravel через Composer
-- [ ] Структура Laravel проекта
-- [ ] `.env` конфигурация
-- [ ] Artisan CLI команды
+#### Installation and Setup
+- [ ] Install Laravel via Composer
+- [ ] Laravel project structure
+- [ ] `.env` configuration
+- [ ] Artisan CLI commands
 
 #### Routing & Controllers
-- [ ] Определение routes
+- [ ] Defining routes
 - [ ] Route parameters
 - [ ] Named routes
-- [ ] Создание controllers
+- [ ] Creating controllers
 - [ ] Resource controllers
 
 #### Blade Templates
-- [ ] Синтаксис Blade (`{{ }}`, `@if`, `@foreach`)
-- [ ] Layouts и секции
+- [ ] Blade syntax (`{{ }}`, `@if`, `@foreach`)
+- [ ] Layouts and sections
 - [ ] Components
 - [ ] Slots
 
 #### Eloquent ORM
-- [ ] Models и conventions
+- [ ] Models and conventions
 - [ ] Migrations
-- [ ] Базовые CRUD операции
+- [ ] Basic CRUD operations
 - [ ] Relationships (hasMany, belongsTo)
 - [ ] Query Builder
 
-#### Другое
+#### Other
 - [ ] Middleware
 - [ ] Form requests (validation)
 - [ ] Authentication scaffolding
-- [ ] **Rebuild Blog в Laravel** (опционально)
+- [ ] **Rebuild Blog in Laravel** (optional)
 
 ---
 
-## Структура файлов
+## File Structure
 
 ```
 Stage7_Templating_Security/
@@ -195,7 +195,7 @@ Stage7_Templating_Security/
 
 ---
 
-## Ресурсы
+## Resources
 
 ### Security
 - [OWASP PHP Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/PHP_Security_Cheat_Sheet.html)
@@ -213,10 +213,10 @@ Stage7_Templating_Security/
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Могу использовать Twig для шаблонов
-- [ ] Понимаю и предотвращаю XSS, CSRF, SQL Injection
-- [ ] Security checklist пройден
-- [ ] Создал проект на Laravel
-- [ ] Понимаю Eloquent ORM basics
+- [ ] Can use Twig for templates
+- [ ] Understand and prevent XSS, CSRF, SQL Injection
+- [ ] Security checklist passed
+- [ ] Created a Laravel project
+- [ ] Understand Eloquent ORM basics

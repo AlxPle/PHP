@@ -2,64 +2,64 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Настроить Docker-окружение для разработки и научиться работать с HTTP-запросами, формами и валидацией данных.
+## Goal
+Set up a Docker environment for development and learn to work with HTTP requests, forms, and data validation.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
 ### Docker Environment
-- [ ] Установить Docker и Docker Compose
-- [ ] Создать `docker-compose.yml` для PHP + MySQL
-- [ ] Настроить монтирование локальных файлов
-- [ ] Запустить PHP в контейнере
-- [ ] Подключиться к MySQL из PHP
-- [ ] Настроить phpMyAdmin (опционально)
+- [ ] Install Docker and Docker Compose
+- [ ] Create `docker-compose.yml` for PHP + MySQL
+- [ ] Configure local file mounting
+- [ ] Run PHP in a container
+- [ ] Connect to MySQL from PHP
+- [ ] Set up phpMyAdmin (optional)
 
-### HTTP и Superglobals
-- [ ] Понять разницу между GET и POST
-- [ ] Работа с `$_GET` — параметры URL
-- [ ] Работа с `$_POST` — данные форм
-- [ ] Работа с `$_SERVER` — информация о сервере
-- [ ] Работа с `$_REQUEST` — объединённые данные
-- [ ] HTTP заголовки (`header()`)
+### HTTP and Superglobals
+- [ ] Understand the difference between GET and POST
+- [ ] Work with `$_GET` — URL parameters
+- [ ] Work with `$_POST` — form data
+- [ ] Work with `$_SERVER` — server information
+- [ ] Work with `$_REQUEST` — combined data
+- [ ] HTTP headers (`header()`)
 
-### Валидация и санитизация
-- [ ] Проверка обязательных полей
-- [ ] `filter_var()` для валидации (email, URL, int)
-- [ ] `filter_var()` для санитизации
-- [ ] `htmlspecialchars()` для XSS-защиты
-- [ ] Обработка ошибок валидации
-- [ ] Отображение ошибок пользователю
+### Validation and Sanitization
+- [ ] Check required fields
+- [ ] `filter_var()` for validation (email, URL, int)
+- [ ] `filter_var()` for sanitization
+- [ ] `htmlspecialchars()` for XSS protection
+- [ ] Handle validation errors
+- [ ] Display errors to user
 
-### HTML-формы
-- [ ] Создание формы с разными типами полей
-- [ ] Атрибуты `action`, `method`, `enctype`
-- [ ] Обработка `<input>`, `<textarea>`, `<select>`
-- [ ] Checkbox и radio buttons
-- [ ] Сохранение введённых данных при ошибке
+### HTML Forms
+- [ ] Create a form with different field types
+- [ ] Attributes `action`, `method`, `enctype`
+- [ ] Handle `<input>`, `<textarea>`, `<select>`
+- [ ] Checkbox and radio buttons
+- [ ] Preserve entered data on error
 
-### Работа с файлами
-- [ ] Запись данных в текстовый файл
-- [ ] Чтение данных из файла
-- [ ] Добавление данных в файл (`FILE_APPEND`)
-- [ ] Работа с JSON-файлами
-
----
-
-## Мини-проект: Feedback Form
-
-### Требования
-- [ ] Форма с полями: имя, email, сообщение
-- [ ] Валидация всех полей
-- [ ] Сохранение отзывов в файл (JSON или TXT)
-- [ ] Отображение списка отзывов
-- [ ] Страница благодарности после отправки
+### Working with Files
+- [ ] Write data to a text file
+- [ ] Read data from a file
+- [ ] Append data to a file (`FILE_APPEND`)
+- [ ] Work with JSON files
 
 ---
 
-## Структура Docker-проекта
+## Mini Project: Feedback Form
+
+### Requirements
+- [ ] Form with fields: name, email, message
+- [ ] Validation of all fields
+- [ ] Save feedback to a file (JSON or TXT)
+- [ ] Display list of feedback
+- [ ] Thank you page after submission
+
+---
+
+## Docker Project Structure
 
 ```
 Stage2_Forms/
@@ -110,7 +110,7 @@ services:
 
 ---
 
-## Ресурсы
+## Resources
 
 - [Docker PHP Getting Started](https://docs.docker.com/language/php/)
 - [Docker Compose PHP + MySQL](https://github.com/docker/awesome-compose/tree/master/nginx-php-mysql)
@@ -120,10 +120,10 @@ services:
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Docker-окружение работает
-- [ ] Понимаю разницу GET vs POST
-- [ ] Могу валидировать и санитизировать ввод
-- [ ] Feedback form работает полностью
-- [ ] Данные сохраняются и читаются из файла
+- [ ] Docker environment is working
+- [ ] Understand the difference between GET vs POST
+- [ ] Can validate and sanitize input
+- [ ] Feedback form works completely
+- [ ] Data is saved to and read from file

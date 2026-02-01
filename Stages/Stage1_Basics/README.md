@@ -2,81 +2,81 @@
 
 > **Status:** 🚧 In Progress
 
-## Цель этапа
-Освоить синтаксис PHP, основные конструкции языка и современные возможности PHP 8.x.
+## Goal
+Master PHP syntax, core language constructs, and modern PHP 8.x features.
 
 ---
 
-## Чеклист задач
+## Task Checklist
 
-### Синтаксис
-- [ ] PHP теги (`<?php ... ?>`, короткий синтаксис)
-- [ ] Комментарии (`//`, `/* ... */`, `/** ... */`)
-- [ ] Вывод данных (`echo`, `print`, `var_dump`, `print_r`)
-- [ ] Строгая типизация (`declare(strict_types=1)`)
+### Syntax
+- [✅] PHP tags (`<?php ... ?>`, short syntax)
+- [✅] Comments (`//`, `/* ... */`, `/** ... */`)
+- [✅] Output (`echo`, `print`, `var_dump`, `print_r`)
+- [✅] Strict typing (`declare(strict_types=1)`)
 
-### Переменные и типы данных
-- [ ] Объявление переменных (`$name = value`)
-- [ ] Типы: `string`, `int`, `float`, `bool`, `array`, `null`
-- [ ] Type juggling (автоматическое приведение типов)
-- [ ] Type declarations (типы параметров и возвращаемых значений)
+### Variables and Data Types
+- [ ] Variable declaration (`$name = value`)
+- [ ] Types: `string`, `int`, `float`, `bool`, `array`, `null`
+- [ ] Type juggling (automatic type conversion)
+- [ ] Type declarations (parameter and return types)
 - [ ] Union types (`int|string`)
 - [ ] Nullable types (`?string`)
 
-### Операторы
-- [ ] Арифметические: `+`, `-`, `*`, `/`, `%`, `**`
-- [ ] Сравнения: `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`
-- [ ] Логические: `&&`, `||`, `!`, `and`, `or`
+### Operators
+- [ ] Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`
+- [ ] Comparison: `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`
+- [ ] Logical: `&&`, `||`, `!`, `and`, `or`
 - [ ] Null coalescing: `??`, `??=`
 - [ ] Spaceship operator: `<=>`
 
-### Условные конструкции
+### Conditionals
 - [ ] `if` / `else` / `elseif`
-- [ ] Тернарный оператор `? :`
+- [ ] Ternary operator `? :`
 - [ ] `switch` / `case`
 - [ ] `match` expression (PHP 8.0+)
 
-### Циклы
+### Loops
 - [ ] `for` loop
 - [ ] `while` loop
 - [ ] `do-while` loop
 - [ ] `foreach` loop
-- [ ] `break` и `continue`
+- [ ] `break` and `continue`
 
-### Функции
-- [ ] Объявление функций
-- [ ] Параметры (по значению, по ссылке)
-- [ ] Значения по умолчанию
-- [ ] Возврат значений (`return`)
+### Functions
+- [ ] Function declaration
+- [ ] Parameters (by value, by reference)
+- [ ] Default values
+- [ ] Return values (`return`)
 - [ ] Named arguments (PHP 8.0+)
 - [ ] Arrow functions (`fn() =>`)
 
 ### PHP 8.x Features
-- [ ] Enums (перечисления, PHP 8.1+)
+- [ ] Enums (PHP 8.1+)
 - [ ] Constructor property promotion
-- [ ] Attributes (атрибуты)
+- [ ] Attributes
 - [ ] `readonly` properties (PHP 8.1+)
 - [ ] `match` expression
 
 ---
 
-## Мини-проекты
+## Mini Projects
 
 ### Calculator
-- [ ] Создать калькулятор с базовыми операциями
-- [ ] Использовать функции для каждой операции
-- [ ] Добавить обработку ошибок (деление на ноль)
-- [ ] Использовать `match` для выбора операции
+- [ ] Create a calculator with basic operations
+- [ ] Use functions for each operation
+- [ ] Add error handling (division by zero)
+- [ ] Use `match` for operation selection
 
 ### String Processor
-- [ ] Функция подсчёта слов в строке
-- [ ] Функция реверса строки
-- [ ] Функция поиска и замены
-- [ ] Использовать строгую типизацию
+- [ ] Word count function
+- [ ] String reverse function
+- [ ] Search and replace function
+- [ ] Use strict typing
 
 ---
 
-## Файлы этапа
+## Stage Files
 
 ```
 Stage1_Basics/
@@ -97,7 +97,7 @@ Stage1_Basics/
 
 ---
 
-## Ресурсы
+## Resources
 
 - [PHP Manual: Language Reference](https://www.php.net/manual/en/langref.php)
 - [PHP 8.0 New Features](https://www.php.net/releases/8.0/en.php)
@@ -107,10 +107,10 @@ Stage1_Basics/
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
-- [ ] Все задачи чеклиста выполнены
-- [ ] Мини-проекты работают корректно
-- [ ] Понимаю разницу между `==` и `===`
-- [ ] Могу использовать `match` вместо `switch`
-- [ ] Понимаю строгую типизацию и её преимущества
+- [ ] All checklist tasks completed
+- [ ] Mini projects work correctly
+- [ ] Understand difference between `==` and `===`
+- [ ] Can use `match` instead of `switch`
+- [ ] Understand strict typing and its benefits

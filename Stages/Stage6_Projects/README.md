@@ -2,17 +2,17 @@
 
 > **Status:** 🚧 Not Started
 
-## Цель этапа
-Применить все изученные навыки в реальных проектах, постепенно усложняя от классического веб-приложения до REST API.
+## Goal
+Apply all learned skills in real projects, gradually increasing complexity from a classic web application to REST API.
 
 ---
 
 ## Project A: ToDo App (Classic Web)
 
-### Описание
-Классическое веб-приложение для управления задачами с HTML-формами и сессиями.
+### Description
+A classic web application for task management with HTML forms and sessions.
 
-### Чеклист
+### Checklist
 - [ ] Настройка структуры проекта (PSR-4)
 - [ ] Схема БД (tasks, users tables)
 - [ ] Регистрация и авторизация
@@ -21,10 +21,10 @@
 - [ ] Редактирование задачи
 - [ ] Удаление задачи
 - [ ] Отметка выполнения
-- [ ] Валидация ввода
-- [ ] Flash-сообщения
+- [ ] Input validation
+- [ ] Flash messages
 
-### Схема БД
+### Database Schema
 
 ```sql
 CREATE TABLE users (
@@ -48,7 +48,7 @@ CREATE TABLE tasks (
 );
 ```
 
-### Структура
+### Structure
 
 ```
 todo-classic/
@@ -79,22 +79,22 @@ todo-classic/
 
 ## Project B: ToDo API (REST)
 
-### Описание
-Преобразование ToDo App в REST API с JSON-ответами.
+### Description
+Transforming ToDo App into a REST API with JSON responses.
 
-### Чеклист
-- [ ] Простой роутер для API
-- [ ] JSON responses с правильными headers
-- [ ] `GET /api/tasks` — список задач
-- [ ] `GET /api/tasks/{id}` — одна задача
-- [ ] `POST /api/tasks` — создание
-- [ ] `PUT /api/tasks/{id}` — обновление
-- [ ] `DELETE /api/tasks/{id}` — удаление
-- [ ] `PATCH /api/tasks/{id}/complete` — отметка выполнения
-- [ ] Правильные HTTP статус-коды
-- [ ] Обработка ошибок (JSON)
-- [ ] Тестирование в Postman
-- [ ] API документация (README)
+### Checklist
+- [ ] Simple router for API
+- [ ] JSON responses with proper headers
+- [ ] `GET /api/tasks` — task list
+- [ ] `GET /api/tasks/{id}` — single task
+- [ ] `POST /api/tasks` — create
+- [ ] `PUT /api/tasks/{id}` — update
+- [ ] `DELETE /api/tasks/{id}` — delete
+- [ ] `PATCH /api/tasks/{id}/complete` — mark as complete
+- [ ] Proper HTTP status codes
+- [ ] Error handling (JSON)
+- [ ] Testing in Postman
+- [ ] API documentation (README)
 
 ### API Endpoints
 
@@ -132,22 +132,22 @@ todo-classic/
 
 ## Project C: Blog with API Backend
 
-### Описание
-Полноценный блог с API бэкендом и фронтендом, потребляющим этот API.
+### Description
+A full-featured blog with API backend and frontend consuming that API.
 
-### Чеклист
-- [ ] Схема БД (posts, users, categories, comments)
-- [ ] REST API для всех сущностей
-- [ ] JWT или session аутентификация
-- [ ] Пагинация
-- [ ] Фильтрация и сортировка
-- [ ] Загрузка изображений
-- [ ] Фронтенд на vanilla JS (fetch)
-- [ ] Markdown поддержка (опционально)
-- [ ] Комментарии
-- [ ] Админ-панель
+### Checklist
+- [ ] Database schema (posts, users, categories, comments)
+- [ ] REST API for all entities
+- [ ] JWT or session authentication
+- [ ] Pagination
+- [ ] Filtering and sorting
+- [ ] Image upload
+- [ ] Frontend with vanilla JS (fetch)
+- [ ] Markdown support (optional)
+- [ ] Comments
+- [ ] Admin panel
 
-### Схема БД
+### Database Schema
 
 ```sql
 CREATE TABLE users (
@@ -208,7 +208,7 @@ CREATE TABLE comments (
 
 ---
 
-## Структура Stage6
+## Stage6 Structure
 
 ```
 Stage6_Projects/
@@ -223,7 +223,7 @@ Stage6_Projects/
 
 ---
 
-## Ресурсы
+## Resources
 
 - [REST API Best Practices](https://restfulapi.net/)
 - [HTTP Status Codes](https://httpstatuses.com/)
@@ -232,21 +232,21 @@ Stage6_Projects/
 
 ---
 
-## Критерии завершения
+## Completion Criteria
 
 ### Project A (ToDo Classic)
-- [ ] Полный CRUD через формы
-- [ ] Авторизация работает
-- [ ] Код структурирован по PSR-4
+- [ ] Full CRUD via forms
+- [ ] Authorization works
+- [ ] Code structured according to PSR-4
 
 ### Project B (ToDo API)
-- [ ] Все endpoints работают
-- [ ] Правильные HTTP коды
-- [ ] Тесты в Postman проходят
-- [ ] Есть API документация
+- [ ] All endpoints work
+- [ ] Proper HTTP codes
+- [ ] Postman tests pass
+- [ ] API documentation exists
 
 ### Project C (Blog)
-- [ ] API + Frontend работают вместе
-- [ ] Аутентификация реализована
-- [ ] Пагинация работает
-- [ ] Загрузка изображений работает
+- [ ] API + Frontend work together
+- [ ] Authentication implemented
+- [ ] Pagination works
+- [ ] Image upload works
