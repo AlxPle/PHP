@@ -1,33 +1,33 @@
 <?php
 # PHP tags
-// Это стандартный способ открыть PHP-блок
+// This is the standard way to open a PHP block
 
 echo "Hello, world!";
-// Короткий тег (не рекомендуется, но встречается):
+// Short tag (not recommended, but sometimes used):
 ?>
 <?php
 # Comments
-// Однострочный комментарий
-/* Многострочный комментарий
-    продолжается здесь */
-/** Документирующий комментарий
- * используется для генерации документации
+// Single-line comment
+/* Multi-line comment
+   continues here */
+/** Doc comment
+ * used for documentation generation
  */
 
 ?>
 <?php
 # Output data
 
-print "This is a print statement.\n ";
+print "This is a print statement.\n";
 var_dump(["apple", "banana", "cherry"]);
 print_r(["name" => "John", "age" => 30]);
 ?>
 <?php
-# Строгая типизация
+# Strict typing
 //declare(strict_types=1);
 
 function add(int $a, int $b): int {
     return $a + $b;
-}   
+}
 echo add(2, 3); // 5
 ?>
