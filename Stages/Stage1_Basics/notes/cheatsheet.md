@@ -6,6 +6,10 @@
 // PHP code here
 ?>
 ```
+```php
+<?php
+// PHP shorthand code here
+```
 
 ---
 

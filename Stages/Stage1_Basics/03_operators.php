@@ -10,7 +10,7 @@ echo $a % $b . PHP_EOL;   // Modulo: 1
 echo $a ** $b . PHP_EOL;  // Exponentiation: 1000
 
 // Comparison operators
-echo ($a == "10" ? "true" : "false") . PHP_EOL;   // true (loose comparison)
+echo ($a == "10" ? "true" : "false") . PHP_EOL;   // true (loose comparison) 
 echo ($a === "10" ? "true" : "false") . PHP_EOL;  // false (strict comparison)
 echo ($a != $b ? "true" : "false") . PHP_EOL;     // true
 echo ($a !== "10" ? "true" : "false") . PHP_EOL;  // true
