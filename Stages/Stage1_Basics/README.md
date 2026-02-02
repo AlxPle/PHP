@@ -31,10 +31,10 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 - [x] Spaceship operator: `<=>`
 
 ### Conditionals
-- [ ] `if` / `else` / `elseif`
-- [ ] Ternary operator `? :`
-- [ ] `switch` / `case`
-- [ ] `match` expression (PHP 8.0+)
+- [x] `if` / `else` / `elseif`
+- [x] Ternary operator `? :`
+- [x] `switch` / `case`
+- [x] `match` expression (PHP 8.0+)
 
 ### Loops
 - [ ] `for` loop

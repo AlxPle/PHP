@@ -26,10 +26,10 @@
   - [x] **Null coalescing (`??`, `??=`)**
   - [x] **Spaceship operator (`<=>`)**
 - Conditionals (if, switch, match) 🚧
-  - [ ] if/else
-  - [ ] elseif
-  - [ ] switch/case
-  - [ ] **Match expression (PHP 8.0+)**
+  - [x] if/else
+  - [x] elseif
+  - [x] switch/case
+  - [x] **Match expression (PHP 8.0+)**
 - Loops (for, while, foreach) 🚧
   - [ ] for loop
   - [ ] while loop
