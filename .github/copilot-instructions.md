@@ -25,6 +25,7 @@
 
 ## Project-Specific Guidance for AI Agents
 - When generating new code, match the style and simplicity of existing stage scripts (single-file, procedural unless in OOP stages).
+- All code comments inside code files must be in English (see PROJECT_CONTEXT.md).
 - Prefer clear, verbose variable names and inline comments for educational clarity.
 - When adding new learning examples, update the relevant `README.md` checklist.
 - Do not introduce frameworks, libraries, or advanced patterns unless the stage/guide covers them.
