@@ -5,6 +5,7 @@
 - Code is organized by learning stages (see `Stages/`), each focusing on a core PHP topic (syntax, forms, sessions, OOP, APIs, etc.).
 - The `Guides/` directory contains curated notes and code from external tutorials (e.g., YouTube courses).
 - There are no complex frameworks or build systems; most code is plain PHP for clarity and learning.
+- **User background:** Already familiar with HTML/CSS/SCSS, focusing on backend development
 
 ## Key Conventions & Patterns
 - **Stage folders** (e.g., `Stage1_Basics/`, `Stage2_Forms/`) contain topic-focused scripts and a `README.md` with checklists and learning goals.
@@ -16,6 +17,8 @@
 
 ## Developer Workflows
 - **Run scripts:** Use the built-in PHP server: `php -S localhost:8000` from the desired directory.
+- **Environment:** Fedora KDE, PHP CLI (see `ENV_SETUP.md`)
+- **Docker:** Introduced in Stage2 (PHP + MySQL + phpMyAdmin)
 - **No automated tests or CI/CD** are present; this is a learning sandbox.
 - **No database required** unless a specific stage/mini-project instructs otherwise (see `Stage4_Databases/`).
 - **No autoloading or PSR standards** enforced unless a stage explicitly covers them.
