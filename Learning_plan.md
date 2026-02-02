@@ -20,11 +20,11 @@
   - [x] **Union types (`int|string`)**
   - [x] **Nullable types (`?string`)**
 - Operators 🚧
-  - [ ] Arithmetic operators
-  - [ ] Comparison operators
-  - [ ] Logical operators
-  - [ ] **Null coalescing (`??`, `??=`)**
-  - [ ] **Spaceship operator (`<=>`)**
+  - [x] Arithmetic operators
+  - [x] Comparison operators
+  - [x] Logical operators
+  - [x] **Null coalescing (`??`, `??=`)**
+  - [x] **Spaceship operator (`<=>`)**
 - Conditionals (if, switch, match) 🚧
   - [ ] if/else
   - [ ] elseif

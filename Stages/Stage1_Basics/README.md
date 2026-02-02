@@ -24,11 +24,11 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 - [x] Nullable types (`?string`)
 
 ### Operators
-- [ ] Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`
-- [ ] Comparison: `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`
-- [ ] Logical: `&&`, `||`, `!`, `and`, `or`
-- [ ] Null coalescing: `??`, `??=`
-- [ ] Spaceship operator: `<=>`
+- [x] Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`
+- [x] Comparison: `==`, `===`, `!=`, `!==`, `<`, `>`, `<=`, `>=`
+- [x] Logical: `&&`, `||`, `!`, `and`, `or`
+- [x] Null coalescing: `??`, `??=`
+- [x] Spaceship operator: `<=>`
 
 ### Conditionals
 - [ ] `if` / `else` / `elseif`
