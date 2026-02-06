@@ -46,7 +46,7 @@
   - [x] Constructor property promotion
   - [x] Attributes (basics)
   - [x] `readonly` properties (PHP 8.1+)
-- Mini-project: Calculator 🚧
+- Mini-project: Calculator ✅
 - Mini-project: String processor 🚧
 
 **Useful Resources:**

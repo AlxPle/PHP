@@ -63,10 +63,10 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 ## Mini Projects
 
 ### Calculator
-- [ ] Create a calculator with basic operations
-- [ ] Use functions for each operation
-- [ ] Add error handling (division by zero)
-- [ ] Use `match` for operation selection
+- [x] Create a calculator with basic operations
+- [x] Use functions for each operation
+- [x] Add error handling (division by zero)
+- [x] Use `match` for operation selection
 
 ### String Processor
 - [ ] Word count function
