@@ -1,46 +1,46 @@
 # PHP Learning Plan (By Stages)
 
-> **Tip:** Mark each task as completed by replacing 🚧 with ✅.
+> **Tip:** Mark each task as completed by replacing 🚧 with .
 > 
 > **Updated:** January 2026 — modernized for PHP 8.x, added API development, CI/CD
 
 ---
 
-## Stage 1 — Language Basics🚧
-- Syntax overview 🚧
+## Stage 1 — Language Basics✅
+- Syntax overview ✅
   - [x] PHP tags (`<?php ... ?>`)
   - [x] Comments (`//`, `/* ... */`)
   - [x] Basic output (`echo`, `print`)
   - [x] **Strict types (`declare(strict_types=1)`)**
-- Variables and data types 🚧
+- Variables and data types ✅
   - [x] Declaring variables
   - [x] Data types (string, int, float, bool, array)
   - [x] Type juggling
   - [x] **Type declarations (parameter types, return types)**
   - [x] **Union types (`int|string`)**
   - [x] **Nullable types (`?string`)**
-- Operators 🚧
+- Operators ✅
   - [x] Arithmetic operators
   - [x] Comparison operators
   - [x] Logical operators
   - [x] **Null coalescing (`??`, `??=`)**
   - [x] **Spaceship operator (`<=>`)**
-- Conditionals (if, switch, match) 🚧
+- Conditionals (if, switch, match) ✅
   - [x] if/else
   - [x] elseif
   - [x] switch/case
   - [x] **Match expression (PHP 8.0+)**
-- Loops (for, while, foreach) 🚧
+- Loops (for, while, foreach) ✅
   - [x] for loop
   - [x] while loop
   - [x] do-while loop
   - [x] foreach loop
-- Functions (definition, parameters, return) 🚧
-  - [ ] Defining functions
-  - [ ] Passing parameters
-  - [ ] Returning values
-  - [ ] **Named arguments (PHP 8.0+)**
-  - [ ] **Arrow functions (`fn() =>`)**
+- Functions (definition, parameters, return) ✅
+  - [x] Defining functions
+  - [x] Passing parameters
+  - [x] Returning values
+  - [x] **Named arguments (PHP 8.0+)**
+  - [x] **Arrow functions (`fn() =>`)**
 - **PHP 8.x Features** 🚧
   - [ ] Enums (PHP 8.1+)
   - [ ] Constructor property promotion

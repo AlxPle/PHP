@@ -44,12 +44,12 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 - [x] `break` and `continue`
 
 ### Functions
-- [ ] Function declaration
-- [ ] Parameters (by value, by reference)
-- [ ] Default values
-- [ ] Return values (`return`)
-- [ ] Named arguments (PHP 8.0+)
-- [ ] Arrow functions (`fn() =>`)
+- [x] Function declaration
+- [x] Parameters (by value, by reference)
+- [x] Default values
+- [x] Return values (`return`)
+- [x] Named arguments (PHP 8.0+)
+- [x] Arrow functions (`fn() =>`)
 
 ### PHP 8.x Features
 - [ ] Enums (PHP 8.1+)
