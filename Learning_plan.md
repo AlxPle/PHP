@@ -6,7 +6,7 @@
 
 ---
 
-## Stage 1 — Language Basics✅
+## Stage 1 — Language Basics 🚧
 - Syntax overview ✅
   - [x] PHP tags (`<?php ... ?>`)
   - [x] Comments (`//`, `/* ... */`)
@@ -41,11 +41,11 @@
   - [x] Returning values
   - [x] **Named arguments (PHP 8.0+)**
   - [x] **Arrow functions (`fn() =>`)**
-- **PHP 8.x Features** 🚧
-  - [ ] Enums (PHP 8.1+)
-  - [ ] Constructor property promotion
-  - [ ] Attributes (basics)
-  - [ ] `readonly` properties (PHP 8.1+)
+- **PHP 8.x Features** ✅
+  - [x] Enums (PHP 8.1+)
+  - [x] Constructor property promotion
+  - [x] Attributes (basics)
+  - [x] `readonly` properties (PHP 8.1+)
 - Mini-project: Calculator 🚧
 - Mini-project: String processor 🚧
 

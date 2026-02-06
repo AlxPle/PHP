@@ -52,11 +52,11 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 - [x] Arrow functions (`fn() =>`)
 
 ### PHP 8.x Features
-- [ ] Enums (PHP 8.1+)
-- [ ] Constructor property promotion
-- [ ] Attributes
-- [ ] `readonly` properties (PHP 8.1+)
-- [ ] `match` expression
+- [x] Enums (PHP 8.1+)
+- [x] Constructor property promotion
+- [x] Attributes
+- [x] `readonly` properties (PHP 8.1+)
+- [x] `match` expression
 
 ---
 
