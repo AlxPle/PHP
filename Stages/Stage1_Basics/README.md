@@ -1,6 +1,6 @@
 # Stage 1 — Language Basics + PHP 8.x
 
-> **Status:** 🚧 In Progress
+> **Status:** ✅ Completed
 
 ## Goal
 Master PHP syntax, core language constructs, and modern PHP 8.x features.

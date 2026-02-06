@@ -6,7 +6,7 @@
 
 ---
 
-## Stage 1 — Language Basics 🚧
+## Stage 1 — Language Basics ✅
 - Syntax overview ✅
   - [x] PHP tags (`<?php ... ?>`)
   - [x] Comments (`//`, `/* ... */`)
