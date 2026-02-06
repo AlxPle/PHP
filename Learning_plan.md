@@ -47,7 +47,7 @@
   - [x] Attributes (basics)
   - [x] `readonly` properties (PHP 8.1+)
 - Mini-project: Calculator ✅
-- Mini-project: String processor 🚧
+- Mini-project: String processor ✅
 
 **Useful Resources:**
 - [PHP Manual: Language Reference](https://www.php.net/manual/en/langref.php)

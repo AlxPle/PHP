@@ -69,10 +69,10 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 - [x] Use `match` for operation selection
 
 ### String Processor
-- [ ] Word count function
-- [ ] String reverse function
-- [ ] Search and replace function
-- [ ] Use strict typing
+- [x] Word count function
+- [x] String reverse function
+- [x] Search and replace function
+- [x] Use strict typing
 
 ---
 
@@ -109,8 +109,8 @@ Stage1_Basics/
 
 ## Completion Criteria
 
-- [ ] All checklist tasks completed
-- [ ] Mini projects work correctly
-- [ ] Understand difference between `==` and `===`
-- [ ] Can use `match` instead of `switch`
-- [ ] Understand strict typing and its benefits
+- [x] All checklist tasks completed
+- [x] Mini projects work correctly
+- [x] Understand difference between `==` and `===`
+- [x] Can use `match` instead of `switch`
+- [x] Understand strict typing and its benefits
