@@ -37,11 +37,11 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 - [x] `match` expression (PHP 8.0+)
 
 ### Loops
-- [ ] `for` loop
-- [ ] `while` loop
-- [ ] `do-while` loop
-- [ ] `foreach` loop
-- [ ] `break` and `continue`
+- [x] `for` loop
+- [x] `while` loop
+- [x] `do-while` loop
+- [x] `foreach` loop
+- [x] `break` and `continue`
 
 ### Functions
 - [ ] Function declaration

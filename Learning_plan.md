@@ -31,10 +31,10 @@
   - [x] switch/case
   - [x] **Match expression (PHP 8.0+)**
 - Loops (for, while, foreach) 🚧
-  - [ ] for loop
-  - [ ] while loop
-  - [ ] do-while loop
-  - [ ] foreach loop
+  - [x] for loop
+  - [x] while loop
+  - [x] do-while loop
+  - [x] foreach loop
 - Functions (definition, parameters, return) 🚧
   - [ ] Defining functions
   - [ ] Passing parameters
