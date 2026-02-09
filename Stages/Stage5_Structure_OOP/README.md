@@ -14,6 +14,9 @@ Learn to properly structure projects, use Composer, master OOP and SOLID princip
 - [ ] PSR-4: Autoloading Standard
 - [ ] PSR-12: Extended Coding Style
 - [ ] Understanding namespaces
+- [ ] PSR naming: classes in `PascalCase`, methods in `camelCase`
+- [ ] One class per file rule
+- [ ] Proper file structure (namespace matches directory)
 
 ### Project Structure
 - [ ] Separate `public/` (entry point) and `src/` (code)
@@ -62,6 +65,12 @@ Learn to properly structure projects, use Composer, master OOP and SOLID princip
 - [ ] Setter injection
 - [ ] Interface-based injection
 - [ ] Simple DI container
+
+### Error Handling in OOP
+- [ ] Custom exception hierarchy for the project
+- [ ] Domain-specific exceptions
+- [ ] Never catch bare `\Exception` (catch specific types)
+- [ ] Using `finally` for resource cleanup
 
 ### Static Analysis
 - [ ] Install PHPStan
