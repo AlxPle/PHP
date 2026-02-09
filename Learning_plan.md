@@ -46,6 +46,21 @@
   - [x] Constructor property promotion
   - [x] Attributes (basics)
   - [x] `readonly` properties (PHP 8.1+)
+- **PHP 8.x Features (Advanced)** 🚧
+  - [ ] Nullsafe operator (`?->`, PHP 8.0+)
+  - [ ] First-class callable syntax (`strlen(...)`, PHP 8.1+)
+  - [ ] `readonly` classes (PHP 8.2+)
+  - [ ] Enum methods (behavior inside enums)
+  - [ ] Intersection types (`Countable&Iterator`, PHP 8.1+)
+  - [ ] `void` and `never` return types
+  - [ ] Avoiding `mixed` type
+  - [ ] Generators (`yield`, `yield from`)
+- **Error Handling Basics** 🚧
+  - [ ] try/catch/finally blocks
+  - [ ] Custom exception classes
+  - [ ] Exception hierarchy
+  - [ ] Catching specific exceptions
+  - [ ] Never suppress errors with `@`
 - Mini-project: Calculator ✅
 - Mini-project: String processor ✅
 
@@ -139,6 +154,8 @@
 ## Stage 5 — Project Structure, Composer, OOP + SOLID 🚧
 - PSR-4 autoloading 🚧
   - [ ] Understanding PSR standards (PSR-1, PSR-4, PSR-12)
+  - [ ] PSR naming conventions (classes: PascalCase, methods: camelCase)
+  - [ ] One class per file rule
   - [ ] Setting up autoloading with Composer
 - Organizing `src/`, `public/`, `templates/` 🚧
   - [ ] Separating code and public assets
@@ -327,7 +344,7 @@
 
 | Stage | Topic | Key Skills | Duration |
 |-------|-------|------------|----------|
-| 1 | Basics + PHP 8.x | Syntax, types, enums, match, strict typing | 2–3 weeks |
+| 1 | Basics + PHP 8.x | Syntax, types, enums, match, strict typing, error handling | 2–4 weeks |
 | 2 | Forms + Docker | Environment setup, HTTP, validation | 1–2 weeks |
 | 3 | Sessions/Auth | State management, cookies, login | 1–2 weeks |
 | 4 | Databases | PDO, prepared statements, CRUD | 2 weeks |

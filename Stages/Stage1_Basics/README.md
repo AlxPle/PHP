@@ -58,6 +58,23 @@ Master PHP syntax, core language constructs, and modern PHP 8.x features.
 - [x] `readonly` properties (PHP 8.1+)
 - [x] `match` expression
 
+### PHP 8.x Features (Advanced)
+- [ ] Nullsafe operator (`?->`, PHP 8.0+)
+- [ ] First-class callable syntax (`strlen(...)`, PHP 8.1+)
+- [ ] `readonly` classes (PHP 8.2+)
+- [ ] Enum methods (adding behavior to enums)
+- [ ] Intersection types (`Countable&Iterator`, PHP 8.1+)
+- [ ] `void` and `never` return types
+- [ ] Avoiding `mixed` type
+- [ ] Generators (`yield`, `yield from`)
+
+### Error Handling
+- [ ] `try` / `catch` / `finally`
+- [ ] Creating custom exception classes
+- [ ] Exception hierarchy (extending `\Exception` / `\RuntimeException`)
+- [ ] Catching specific exceptions (never bare `catch`)
+- [ ] Never suppress errors with `@`
+
 ---
 
 ## Mini Projects
@@ -88,6 +105,8 @@ Stage1_Basics/
 ├── 05_loops.php
 ├── 06_functions.php
 ├── 07_php8_features.php
+├── 08_php8_advanced.php
+├── 09_error_handling.php
 ├── projects/
 │   ├── calculator.php
 │   └── string_processor.php
