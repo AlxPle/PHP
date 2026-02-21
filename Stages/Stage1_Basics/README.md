@@ -88,8 +88,6 @@ Stage1_Basics/
 ├── 05_loops.php
 ├── 06_functions.php
 ├── 07_php8_features.php
-├── 08_php8_advanced.php
-├── 09_error_handling.php
 ├── projects/
 │   ├── calculator.php
 │   └── string_processor.php
