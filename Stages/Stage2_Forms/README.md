@@ -10,12 +10,12 @@ Set up a Docker environment for development and learn to work with HTTP requests
 ## Task Checklist
 
 ### Docker Environment
-- [ ] Install Docker and Docker Compose
-- [ ] Create `docker-compose.yml` for PHP + MySQL
-- [ ] Configure local file mounting
-- [ ] Run PHP in a container
-- [ ] Connect to MySQL from PHP
-- [ ] Set up phpMyAdmin (optional)
+- [x] Install Docker and Docker Compose
+- [x] Create `docker-compose.yml` for PHP + MySQL
+- [x] Configure local file mounting
+- [x] Run PHP in a container
+- [x] Connect to MySQL from PHP
+- [x] Set up phpMyAdmin (optional)
 
 ### HTTP and Superglobals
 - [ ] Understand the difference between GET and POST

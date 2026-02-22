@@ -22,6 +22,10 @@ This command will start a local server in the current directory. Open http://loc
 
 You can stop the server at any time by pressing Ctrl+C in the terminal.
 
----
+## 3. Docker Setup
+
+Install Docker and Docker Compose for containerized development
+
+[DOCKER_SETUP.md](./DOCKER_SETUP.md)
 
 *Other setup steps will be added as needed during learning and development.*
