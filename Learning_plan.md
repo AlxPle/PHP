@@ -61,17 +61,17 @@
 ---
 
 ## Stage 2 — HTTP, Forms + Docker Environment 🚧
-- **Docker development environment** 🚧
-  - [ ] Installing Docker and Docker Compose
-  - [ ] Setting up PHP + MySQL containers
-  - [ ] Understanding `docker-compose.yml`
-  - [ ] Mounting local files into containers
-  - [ ] Running PHP in Docker
+- Docker development environment 🚧
+  - [x] Installing Docker and Docker Compose
+  - [x] Setting up PHP + MySQL containers
+  - [x] Understanding `docker-compose.yml`
+  - [x] Mounting local files into containers
+  - [x] Running PHP in Docker
 - GET/POST, superglobals (`$_GET`, `$_POST`, `$_SERVER`) 🚧
-  - [ ] Understanding HTTP request methods
-  - [ ] Accessing query parameters with `$_GET`
-  - [ ] Accessing form data with `$_POST`
-  - [ ] Using `$_SERVER` for server/environment info
+  - [x] Understanding HTTP request methods
+  - [x] Accessing query parameters with `$_GET`
+  - [x] Accessing form data with `$_POST`
+  - [x] Using `$_SERVER` for server/environment info
 - Input validation and sanitization 🚧
   - [ ] Basic validation (required fields, types)
   - [ ] Sanitizing input (`filter_var`, `htmlspecialchars`)

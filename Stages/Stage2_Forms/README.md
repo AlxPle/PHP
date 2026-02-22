@@ -18,12 +18,12 @@ Set up a Docker environment for development and learn to work with HTTP requests
 - [x] Set up phpMyAdmin (optional)
 
 ### HTTP and Superglobals
-- [ ] Understand the difference between GET and POST
-- [ ] Work with `$_GET` — URL parameters
-- [ ] Work with `$_POST` — form data
-- [ ] Work with `$_SERVER` — server information
-- [ ] Work with `$_REQUEST` — combined data
-- [ ] HTTP headers (`header()`)
+- [x] Understand the difference between GET and POST
+- [x] Work with `$_GET` — URL parameters
+- [x] Work with `$_POST` — form data
+- [x] Work with `$_SERVER` — server information
+- [x] Work with `$_REQUEST` — combined data
+- [x] HTTP headers (`header()`)
 
 ### Validation and Sanitization
 - [ ] Check required fields
