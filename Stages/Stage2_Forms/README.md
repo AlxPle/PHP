@@ -1,6 +1,6 @@
 # Stage 2 — HTTP, Forms + Docker Environment
 
-> **Status:** 🚧 Not Started
+> **Status:** ✅ Completed
 
 ## Goal
 Set up a Docker environment for development and learn to work with HTTP requests, forms, and data validation.
@@ -41,21 +41,21 @@ Set up a Docker environment for development and learn to work with HTTP requests
 - [x] Preserve entered data on error
 
 ### Working with Files
-- [ ] Write data to a text file
-- [ ] Read data from a file
-- [ ] Append data to a file (`FILE_APPEND`)
-- [ ] Work with JSON files
+- [x] Write data to a text file
+- [x] Read data from a file
+- [x] Append data to a file (`FILE_APPEND`)
+- [x] Work with JSON files
 
 ---
 
-## Mini Project: Feedback Form
+## Mini Project: Feedback Form ✅ Completed
 
 ### Requirements
-- [ ] Form with fields: name, email, message
-- [ ] Validation of all fields
-- [ ] Save feedback to a file (JSON or TXT)
-- [ ] Display list of feedback
-- [ ] Thank you page after submission
+- [x] Form with fields: name, email, message
+- [x] Validation of all fields
+- [x] Save feedback to a file (JSON or TXT)
+- [x] Display list of feedback
+- [x] Thank you page after submission
 
 ---
 
@@ -65,8 +65,6 @@ Set up a Docker environment for development and learn to work with HTTP requests
 Stage2_Forms/
 ├── README.md
 ├── docker-compose.yml
-├── Dockerfile
-├── .env.example
 ├── src/
 │   ├── 01_get_post.php
 │   ├── 02_superglobals.php
@@ -75,17 +73,18 @@ Stage2_Forms/
 │   ├── 05_validation_and_sanitization.php
 │   ├── 05_secure_validation_and_sanitization.php
 │   ├── 06_file_handling.php
-│   └── 07_html_forms.php
-├── projects/
-│   └── feedback/
-│       ├── index.php
-│       ├── process.php
-│       ├── thank_you.php
-│       ├── list.php
-│       └── data/
-│           └── feedbacks.json
-└── notes/
-    └── docker_commands.md
+│   ├── 07_html_forms.php
+│   └── projects/
+│       └── feedback/
+│           ├── CHECKPOINTS.md
+│           ├── PLAN.md
+│           ├── TASKS.md
+│           ├── index.php
+│           ├── process.php
+│           ├── thank_you.php
+│           ├── list.php
+│           └── data/
+│               └── feedbacks.json
 ```
 
 ---
@@ -128,5 +127,5 @@ services:
 - [x] Docker environment is working
 - [x] Understand the difference between GET vs POST
 - [x] Can validate and sanitize input
-- [ ] Feedback form works completely
-- [ ] Data is saved to and read from file
+- [x] Feedback form works completely
+- [x] Data is saved to and read from file
