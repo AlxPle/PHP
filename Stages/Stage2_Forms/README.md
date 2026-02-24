@@ -26,19 +26,19 @@ Set up a Docker environment for development and learn to work with HTTP requests
 - [x] HTTP headers (`header()`)
 
 ### Validation and Sanitization
-- [ ] Check required fields
-- [ ] `filter_var()` for validation (email, URL, int)
-- [ ] `filter_var()` for sanitization
-- [ ] `htmlspecialchars()` for XSS protection
-- [ ] Handle validation errors
-- [ ] Display errors to user
+- [x] Check required fields
+- [x] `filter_var()` for validation (email, URL, int)
+- [x] `filter_var()` for sanitization
+- [x] `htmlspecialchars()` for XSS protection
+- [x] Handle validation errors
+- [x] Display errors to user
 
 ### HTML Forms
-- [ ] Create a form with different field types
-- [ ] Attributes `action`, `method`, `enctype`
-- [ ] Handle `<input>`, `<textarea>`, `<select>`
-- [ ] Checkbox and radio buttons
-- [ ] Preserve entered data on error
+- [x] Create a form with different field types
+- [x] Attributes `action`, `method`, `enctype`
+- [x] Handle `<input>`, `<textarea>`, `<select>`
+- [x] Checkbox and radio buttons
+- [x] Preserve entered data on error
 
 ### Working with Files
 - [ ] Write data to a text file
@@ -72,7 +72,10 @@ Stage2_Forms/
 │   ├── 02_superglobals.php
 │   ├── 03_validation.php
 │   ├── 04_sanitization.php
-│   └── 05_file_handling.php
+│   ├── 05_validation_and_sanitization.php
+│   ├── 05_secure_validation_and_sanitization.php
+│   ├── 06_file_handling.php
+│   └── 07_html_forms.php
 ├── projects/
 │   └── feedback/
 │       ├── index.php
@@ -122,8 +125,8 @@ services:
 
 ## Completion Criteria
 
-- [ ] Docker environment is working
-- [ ] Understand the difference between GET vs POST
-- [ ] Can validate and sanitize input
+- [x] Docker environment is working
+- [x] Understand the difference between GET vs POST
+- [x] Can validate and sanitize input
 - [ ] Feedback form works completely
 - [ ] Data is saved to and read from file
