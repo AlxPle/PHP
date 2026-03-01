@@ -73,16 +73,16 @@
   - [x] Accessing form data with `$_POST`
   - [x] Using `$_SERVER` for server/environment info
 - Input validation and sanitization 🚧
-  - [ ] Basic validation (required fields, types)
-  - [ ] Sanitizing input (`filter_var`, `htmlspecialchars`)
-  - [ ] Handling invalid input
+  - [x] Basic validation (required fields, types)
+  - [x] Sanitizing input (`filter_var`, `htmlspecialchars`)
+  - [x] Handling invalid input
 - Simple feedback form 🚧
-  - [ ] Creating an HTML form
-  - [ ] Processing form submission in PHP
-  - [ ] Displaying feedback to the user
+  - [x] Creating an HTML form
+  - [x] Processing form submission in PHP
+  - [x] Displaying feedback to the user
 - Saving data to a file 🚧
-  - [ ] Writing user input to a text file
-  - [ ] Reading and displaying saved feedback
+  - [x] Writing user input to a text file
+  - [x] Reading and displaying saved feedback
 
 **Useful Resources:**
 - [Docker PHP Getting Started](https://docs.docker.com/language/php/)
