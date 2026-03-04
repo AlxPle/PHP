@@ -10,13 +10,13 @@ Learn to manage user state through sessions and cookies, create a simple authent
 ## Task Checklist
 
 ### Sessions
-- [ ] Understand the stateless HTTP concept
-- [ ] `session_start()` — start a session
-- [ ] `$_SESSION` — store data
-- [ ] `session_destroy()` — destroy a session
-- [ ] `session_regenerate_id()` — security
-- [ ] Session ID and cookies
-- [ ] Session settings (`php.ini`, `session_set_cookie_params`)
+- [x] Understand the stateless HTTP concept
+- [x] `session_start()` — start a session
+- [x] `$_SESSION` — store data
+- [x] `session_destroy()` — destroy a session
+- [x] `session_regenerate_id()` — security
+- [x] Session ID and cookies
+- [x] Session settings (`php.ini`, `session_set_cookie_params`)
 
 ### Cookies
 - [ ] `setcookie()` — set a cookie
