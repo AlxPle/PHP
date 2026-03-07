@@ -4,7 +4,7 @@
 Learn PHP from basics to real-world projects, focusing on practical skills and modern workflows.
 
 ## Current Stage
-Stage 1 — Language Basics 🚧
+Stage 3 🚧
 
 ## Workflow Preferences
 - Track progress with emojis (🚧/✅)
